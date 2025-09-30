@@ -1,4 +1,4 @@
-# 🔫 YOLOv8 Firearm Detection (Real-Time)
+# YOLOv8 Firearm Detection (Real-Time)
 
 [![Python CI](https://github.com/zakawatliaqat-eng/yolov8-firearm-detection/actions/workflows/python-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/yolov8-firearm-detection/actions)
 
@@ -15,7 +15,7 @@ Built with **PyTorch + Ultralytics YOLOv8**, it supports:
 >  **Ethics Disclaimer**: This project is for research and educational purposes.  
 > Use responsibly and comply with all applicable laws, privacy, and surveillance policies.
 
----
+
 
 ##  Features
 - Easy-to-run training pipeline (`src/train.py`)
@@ -25,7 +25,7 @@ Built with **PyTorch + Ultralytics YOLOv8**, it supports:
 - Colab notebook for hands-on experiments
 - Modular structure for deployment in production
 
----
+
 
 ##  Installation
 
@@ -47,7 +47,7 @@ Built with **PyTorch + Ultralytics YOLOv8**, it supports:
    pip install -r requirements.txt
    ```
 
----
+
 
 ##  Repository Structure
 ```
@@ -68,7 +68,7 @@ yolov8-firearm-detection/
 └─ .github/workflows/   # CI pipeline
 ```
 
----
+
 
 ##  Dataset Preparation
 
@@ -89,7 +89,7 @@ This project expects datasets in **YOLO format**:
 
  **Do not** upload private/sensitive CCTV footage to public repos. Always anonymize faces if required.
 
----
+
 
 ##  Usage
 
@@ -122,20 +122,20 @@ python src/export.py --weights runs/train/.../best.pt --format onnx
 python src/evaluate.py --weights runs/train/.../best.pt --data data.yaml
 ```
 
----
+
 
 ##  Google Colab Quickstart
 Try the ready-to-use Colab notebook for training & validation:  
 
  [Open in Colab](https://colab.research.google.com/github/YOUR_USERNAME/yolov8-firearm-detection/blob/main/notebooks/Train_YOLOv8_Firearm.ipynb)
 
----
+
 
 ##  Results
 - Metrics reported: **mAP@0.5**, **mAP@0.5:0.95**, **Precision**, **Recall**
 - Sample outputs will appear in `runs/` after training/inference.
 
----
+
 
 ##  Ethics & Legal Considerations
 - This project detects **objects (firearms)**, not people.  
@@ -143,7 +143,7 @@ Try the ready-to-use Colab notebook for training & validation:
 - **False positives** and **false negatives** can have serious consequences. Always keep a human-in-the-loop.
 - Respect local laws on CCTV, privacy, and surveillance.
 
----
+
 
 ##  Contributing
 Contributions are welcome! Please:
@@ -152,9 +152,9 @@ Contributions are welcome! Please:
 3. Commit changes
 4. Open a Pull Request
 
----
+
 
 ##  License
 This project is licensed under the [MIT License](LICENSE).
 
----
+
