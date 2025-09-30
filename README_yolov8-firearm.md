@@ -1,23 +1,23 @@
 # 🔫 YOLOv8 Firearm Detection (Real-Time)
 
-[![Python CI](https://github.com/YOUR_USERNAME/yolov8-firearm-detection/actions/workflows/python-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/yolov8-firearm-detection/actions)
+[![Python CI](https://github.com/zakawatliaqat-eng/yolov8-firearm-detection/actions/workflows/python-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/yolov8-firearm-detection/actions)
 
-## 📌 Overview
+## Overview
 This repository provides a **YOLOv8-based firearm detection system** for real-time surveillance applications.  
 Built with **PyTorch + Ultralytics YOLOv8**, it supports:
 
-- 🎯 Training on custom datasets (COCO / YOLO format)
-- 📹 Real-time inference (webcam, RTSP, video files)
-- 📊 Evaluation (mAP, precision, recall)
-- 📦 Export to **ONNX / TorchScript** for edge deployment
-- 🧪 Google Colab notebook for quick testing & prototyping
+- Training on custom datasets (COCO / YOLO format)
+- Real-time inference (webcam, RTSP, video files)
+- Evaluation (mAP, precision, recall)
+- Export to **ONNX / TorchScript** for edge deployment
+- Google Colab notebook for quick testing & prototyping
 
-> ⚠️ **Ethics Disclaimer**: This project is for research and educational purposes.  
+>  **Ethics Disclaimer**: This project is for research and educational purposes.  
 > Use responsibly and comply with all applicable laws, privacy, and surveillance policies.
 
 ---
 
-## ✨ Features
+##  Features
 - Easy-to-run training pipeline (`src/train.py`)
 - Real-time detection with bounding boxes & FPS display
 - Single-image inference and batch evaluation
@@ -27,7 +27,7 @@ Built with **PyTorch + Ultralytics YOLOv8**, it supports:
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository:
    ```bash
@@ -49,7 +49,7 @@ Built with **PyTorch + Ultralytics YOLOv8**, it supports:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```
 yolov8-firearm-detection/
 ├─ src/
@@ -70,7 +70,7 @@ yolov8-firearm-detection/
 
 ---
 
-## 📊 Dataset Preparation
+##  Dataset Preparation
 
 This project expects datasets in **YOLO format**:
 - Each image has a `.txt` label file with:  
@@ -87,11 +87,11 @@ This project expects datasets in **YOLO format**:
 - [Kaggle Gun Detection datasets](https://www.kaggle.com/)
 - [Open Images V6 subset (firearms)](https://storage.googleapis.com/openimages/web/index.html)
 
-⚠️ **Do not** upload private/sensitive CCTV footage to public repos. Always anonymize faces if required.
+ **Do not** upload private/sensitive CCTV footage to public repos. Always anonymize faces if required.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Training
 ```bash
@@ -124,20 +124,20 @@ python src/evaluate.py --weights runs/train/.../best.pt --data data.yaml
 
 ---
 
-## 🧪 Google Colab Quickstart
+##  Google Colab Quickstart
 Try the ready-to-use Colab notebook for training & validation:  
 
-👉 [Open in Colab](https://colab.research.google.com/github/YOUR_USERNAME/yolov8-firearm-detection/blob/main/notebooks/Train_YOLOv8_Firearm.ipynb)
+ [Open in Colab](https://colab.research.google.com/github/YOUR_USERNAME/yolov8-firearm-detection/blob/main/notebooks/Train_YOLOv8_Firearm.ipynb)
 
 ---
 
-## 📈 Results
+##  Results
 - Metrics reported: **mAP@0.5**, **mAP@0.5:0.95**, **Precision**, **Recall**
 - Sample outputs will appear in `runs/` after training/inference.
 
 ---
 
-## ⚖️ Ethics & Legal Considerations
+##  Ethics & Legal Considerations
 - This project detects **objects (firearms)**, not people.  
 - Use responsibly as an **assistive tool**, not an autonomous decision-maker.
 - **False positives** and **false negatives** can have serious consequences. Always keep a human-in-the-loop.
@@ -145,7 +145,7 @@ Try the ready-to-use Colab notebook for training & validation:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Please:
 1. Fork the repo
 2. Create a new branch (`feature/your-feature`)
@@ -154,7 +154,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the [MIT License](LICENSE).
 
 ---
